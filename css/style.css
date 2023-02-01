@@ -44,6 +44,10 @@ body {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    color:white;
+    font-weight: 500;
+}
 /*banner block*/
 
 .banner-block-title {
@@ -93,10 +97,16 @@ body {
     border: none;
     cursor: pointer;
     background: transparent;
+    transition: all 0.5s;
 }
 
 .button-white {
     border: solid rgb(255, 255, 255) 2px;
+}
+
+.button-white:hover {
+    background: white;
+    color: rgb(177, 128, 228);
 }
 
 /*second-block benefits*/
@@ -159,6 +169,11 @@ body {
     border: solid 2px rgb(177, 128, 228);
 }
 
+.button-violet:hover {
+    color: white;
+    background: rgb(177, 128, 228);
+}
+
 .info-text {
     font-size: 16px;
     color: rgb(49, 27, 94);
@@ -169,7 +184,8 @@ body {
 .text-bottom:not(:last-child) {
     margin-bottom: 30px;
 }
- /*footer */
+
+/*footer */
 
 .footer {
     text-align: center;
